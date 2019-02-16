@@ -46,9 +46,13 @@ h1 {
 }
 
 h2 {
-  color: #111;
+  color: #fff;
   font-size: 1.2rem;
-    line-height: normal;
+  line-height: normal;
+}
+
+#single-post h2 {
+    color: #111;
 }
 
 h3 {
