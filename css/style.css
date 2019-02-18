@@ -37,13 +37,13 @@ h1,h2,h3,h4 {
 
 h1 {
   color: #000;
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   font-weight: 700;
 }
-
+/* Unused
 #single-post h1 {
     padding-top:75px;
-}
+} */
 
 h2 {
   color: #fff;
@@ -455,6 +455,18 @@ a.icon {
 }
 .header-five {
   background: url('../images/header-five-bg.jpg') no-repeat;
+}
+.header-six {
+    background: url('../images/header-six-bg.jpg') no-repeat;
+}
+.header-seven {
+    background: url('../images/header-seven-bg.jpg') no-repeat;
+}
+.header-eight {
+    background: url('../images/header-eight-bg.png') no-repeat;
+}
+.header-nine {
+    background: url('../images/header-nine-bg.jpg') no-repeat;
 }
 
 /* Portfolio section styles
