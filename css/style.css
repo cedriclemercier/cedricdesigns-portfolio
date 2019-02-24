@@ -439,7 +439,7 @@ a.icon {
 }
 
 .header-one {
-  background: url('../images/thumbnails/mainbanner_train.jpg') no-repeat;
+  background: url('../images/thumbnails/mainbanner-train.jpg') no-repeat;
   height: 60vh !important;
   min-height: 520px;
   padding-top: 150px !important;
