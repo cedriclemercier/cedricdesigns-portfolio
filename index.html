@@ -31,8 +31,17 @@
 	<!-- Google web font 
    ================================================== -->	
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	
 </head>
+    <script>
+        $(function() {
+            $("#header").load("headernav.html");
+        });
+    </script>
+    
+    
 <body>
 
 
@@ -47,8 +56,8 @@
 
 <!-- Navigation section
 ================================================== -->
-<div class="nav-container">
-   <nav class="nav-inner transparent">
+<div class="nav-container" id="header">
+   <!--<nav class="nav-inner transparent">
 
      <div class="navbar">
          <div class="container">
@@ -84,7 +93,7 @@
          </div>
       </div>
 
-   </nav>
+   </nav>-->
 </div>
 
 
