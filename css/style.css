@@ -980,3 +980,17 @@ footer {
     color: #DD2D4A;
     background-color: transparent;
 }
+
+
+
+
+/* Hire me section section
+/* ========================================== */
+
+#hire-form {
+    display: none;
+}
+
+.promo-link {
+    color: #FF7575;
+}
