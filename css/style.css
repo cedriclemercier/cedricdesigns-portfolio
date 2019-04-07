@@ -1031,6 +1031,10 @@ footer {
     font-size:20px;
 }
 
+#hire-form i {
+    font-size:16px;
+}
+
 .promo-link {
     color: #FF7575;
 }
