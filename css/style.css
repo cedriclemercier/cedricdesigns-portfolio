@@ -1027,8 +1027,31 @@ footer {
 /* Hire me section section
 /* ========================================== */
 
+.hire input {
+    height:0;
+}
+
+.hire ul {
+    padding:0;
+}
+
+.hire ul li {
+    list-style: none;
+    padding:10px 0;
+}
+
+#hire-form input[type="radio"] {
+    transform: scale(1.5);
+}
+
 #hire-form label{
     font-size:20px;
+}
+
+#hire-form .budget-list label {
+    font-weight: normal;
+    font-size:16px;
+    padding-left:10px;
 }
 
 #hire-form i {
@@ -1037,4 +1060,8 @@ footer {
 
 .promo-link {
     color: #FF7575;
+}
+
+#contact input[type='radio'] {
+    height:10px;
 }
