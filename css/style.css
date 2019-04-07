@@ -1027,7 +1027,8 @@ footer {
 /* Hire me section section
 /* ========================================== */
 
-#hire-form {
+#hire-form label{
+    font-size:20px;
 }
 
 .promo-link {
