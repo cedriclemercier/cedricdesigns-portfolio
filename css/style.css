@@ -431,7 +431,7 @@ a.icon {
 .header-three .header-thumb,
 .header-four .header-thumb,
 .header-five .header-thumb {
-    padding: 32px 20px 32px 20px !important;
+    padding: 32px 30px 32px 30px !important;
 }
 
 .header-one, .header-two,
@@ -656,6 +656,11 @@ a.icon {
 #blog {
 }
 
+#header h3 {
+    line-height: 18px;
+    text-transform: none;
+}
+
 #blog, 
 #single-post {
     padding-top: 4rem;
@@ -742,6 +747,52 @@ a.icon {
     color: #ffffff;
     height: 50px;
 }
+
+
+.carousel {
+}
+
+#carousel-ec-mockups .carousel-indicators li {
+    border: 1px solid #021639;
+}
+
+#carousel-ec-mockups .carousel-indicators .active {
+    background-color: #021639;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+}
+
+.carousel-control-next-icon {
+    
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+}
+
 
 
 /* contact section styles
